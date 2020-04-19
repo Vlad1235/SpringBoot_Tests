@@ -12,19 +12,11 @@ public class Student {
     public Student() {
     }
 
-    public String getTitle() {
+    public String getName() {
         return name;
     }
 
-    public void setTitle(String name) {
-        this.name = name;
-    }
-
-    public String getValue() {
+    public String getSurname() {
         return surname;
-    }
-
-    public void setValue(String surname) {
-        this.surname = surname;
     }
 }

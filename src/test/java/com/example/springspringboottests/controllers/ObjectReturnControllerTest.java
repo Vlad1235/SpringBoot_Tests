@@ -29,7 +29,6 @@ public class ObjectReturnControllerTest {
                 .standaloneSetup(objectReturnController)
                 .build();
     }
-
     @Test
     public void testReturnStudentInfo() throws Exception {
         mockMvc.perform(
@@ -38,7 +37,7 @@ public class ObjectReturnControllerTest {
                 )
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.jsonPath("$.name", Matchers.is("Jason")))
-                .andExpect(MockMvcResultMatchers.jsonPath("$.surname", Matchers.is("Born")));
+                .andExpect(MockMvcResultMatchers.jsonPath("$.surname", Matchers.is("Statham")));
     }
 
     @Test

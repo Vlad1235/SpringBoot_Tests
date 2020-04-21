@@ -70,6 +70,13 @@
       <version>2.23.0</version>
       <scope>test</scope>
     </dependency>
+    <!--easymock-->
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>4.2</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
